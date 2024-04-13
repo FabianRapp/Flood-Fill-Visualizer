@@ -1,6 +1,6 @@
 ## Flood-Fill-Visualizer
 An educational tool to visualize a recursive function with multiple recursive calls in all directions.
-The algorithm checks the current cell, if it is to be filled it fills it and calls the algorithm first on the above cell, when that returns on the below cell, after that recursive call returns on the right cell and finally after all other recursive calls returned it calls the algorithm  recursivly on the right cell.
+The algorithm checks the current cell, if it is to be filled it fills it and calls the algorithm first on the above cell, when that returns on the below cell, after that recursive call returns on the right cell and finally after the right recursive call returned it calls the algorithm  recursivly on the left cell.
 
 ## Dependencies
 Python 3.11.7
@@ -9,7 +9,7 @@ numpy                     1.26.4
 
 ## How to run
 
-install python3 if not installed(I used 3.11.7 when running this):
+Install Python: If not already installed install Python 3.11.7 (which I used to run this tool)
 https://www.python.org/downloads/release/python-3117/
 
 Download the program:
@@ -22,7 +22,8 @@ Finally to run the program:
 `python main.py`
 
 
-## The first window:
+## The first window: Setup
+Configure the grid by changing cells between being walls or empty spaces, and setting the starting position
 
 ![Setup window](images/Flood-Fill-Visualizer-Setup.png)
 
@@ -42,8 +43,8 @@ To change the grid size click "New Grid Size"
 After you have configured the map press "Finished"
 
 
-## The second window:
-
+## The second window: Visualization
+This window visualizes the recursive execution of the flood fill algorithm in real-time
 ![Setup window](images/Flood-Fill-Visualizer-Setup.png)
 
 This is where the main algorithm runs and is displayed.
