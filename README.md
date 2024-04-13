@@ -1,6 +1,7 @@
 ## Flood-Fill-Visualizer<br>
-An educational tool to visualize a recursive function with multiple recursive calls in all directions.
-The algorithm checks the current cell, if it is to be filled it fills it and calls the algorithm first on the above cell, when that returns on the below cell, after that recursive call returns on the right cell and finally after the right recursive call returned it calls the algorithm  recursivly on the left cell.
+An educational tool to visualize a recursive function with multiple recursive calls in all directions. <br>
+<br>
+The algorithm checks the current cell, if it is to be filled it fills it and calls the algorithm first on the above cell, when that returns the algorithm is used on the cell below, after that recursive call returns on the right cell and finally after the right recursive call returned it calls the algorithm on the left cell.
 
 ## Dependencies
 Python 3.11.7<br>
