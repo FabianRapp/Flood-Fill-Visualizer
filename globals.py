@@ -20,6 +20,8 @@ to_fill_color = 1
 filled_state = [3, 4, 5, 6, 7]
 cmap = matplotlib.colors.ListedColormap([color_dict[i] for i in color_dict])
 
+total_function_calls = 0
+
 up = 1
 down = 2
 left = 3

@@ -60,7 +60,7 @@ def key_hooks():
 	g.map_fig.canvas.mpl_connect('motion_notify_event', on_motion)
 
 def exit_ways():
-	finished_button = tk.Button(g.map_root, text="Finished", bg="green", command=g.map_root.destroy)
+	finished_button = tk.Button(g.map_root, text="Start", bg="green", command=g.map_root.destroy)
 	finished_button.grid(row=2, column=0, sticky="ew")
 	key_hooks()
 	g.map_root.protocol("WM_DELETE_WINDOW", lambda: [g.map_root.destroy()])

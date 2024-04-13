@@ -23,6 +23,8 @@ def fill_cell(tab, cur, fig, ax, size):
 	u.display_area(fig, ax, tab)
 
 def fill(tab, size, cur, fig, ax):
+	g.total_function_calls = g.total_function_calls + 1
+	print(f"total function calls: {g.total_function_calls}")
 	original_value = tab[cur[1], cur[0]]
 	tab[cur[1], cur[0]] = g.checking_color
 	u.display_area(fig, ax, tab)
