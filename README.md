@@ -16,9 +16,7 @@ Download the program:
 git clone https://github.com/FabianRapp/Flood-Fill-Visualizer.git && cd Flood-Fill-Visualizer
 
 Set up the enviorment:
-python3 -m venv flood_fill_env
-source flood_fill_env/bin/activate
-pip install matplotlib==3.8.4 numpy==1.26.4
+python3 -m venv flood_fill_env && source flood_fill_env/bin/activate && pip install matplotlib==3.8.4 numpy==1.26.4
 
 Finally to run the program:
 python main.py
@@ -43,15 +41,17 @@ After you have configured the map press "Finished"
 
 ## On the second screen:
 This is where the main algorithm runs and is displayed.
-The algorithm works recursively by calling itself first on the above cells, then the below cell, right cell and finally the left cell (incase the current cell is to be filled).
+The algorithm works recursively by calling itself first on the above cells, then the below cell, right cell and finally the left cell (in case the current cell is to be filled).
+
+Move the slider on the bottom the the left for higher speed.
 
 # The colors:
 Green: Empty space (can be filled)
-Read: Wall (can not be filled)
-Yello: Current postion
+Red: Wall (can not be filled)
+Yellow: Current postion
 All blue gradiants: Filled cells
 Grey: Boarders
 
-Darkest blue: the cell is filled and has allready called the recusricve call on all it's adjacent cells and all have allready returned.
+Darkest blue: the cell is filled and has already called the recusricve call on all it's adjacent cells and all have already returned.
 Lightest blue: the cell is filled and has called one (the above cell)
 Inbetween blue: Filled cell that has called the algorithm on more adjacent cells the darker the blue is
