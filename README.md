@@ -13,16 +13,19 @@ install python3 if not installed(I used 3.11.7 when running this):
 https://www.python.org/downloads/release/python-3117/
 
 Download the program:
-git clone https://github.com/FabianRapp/Flood-Fill-Visualizer.git && cd Flood-Fill-Visualizer
+`git clone https://github.com/FabianRapp/Flood-Fill-Visualizer.git && cd Flood-Fill-Visualizer`
 
 Set up the enviorment:
-python3 -m venv flood_fill_env && source flood_fill_env/bin/activate && pip install matplotlib==3.8.4 numpy==1.26.4
+`python3 -m venv flood_fill_env && source flood_fill_env/bin/activate && pip install matplotlib==3.8.4 numpy==1.26.4`
 
 Finally to run the program:
-python main.py
+`python main.py`
 
 
-## On the first screen:
+## The first window:
+
+![Setup window](images/Flood-Fill-Visualizer-Setup.png)
+
 Green Cells: Space empty space (Cells that can be filled)
 Red Cells: Walls (Cells that can not be filled)
 Yellow Cell: Starting position in cell that can be filled
@@ -39,7 +42,10 @@ To change the grid size click "New Grid Size"
 After you have configured the map press "Finished"
 
 
-## On the second screen:
+## The second window:
+
+![Setup window](images/Flood-Fill-Visualizer-Setup.png)
+
 This is where the main algorithm runs and is displayed.
 The algorithm works recursively by calling itself first on the above cells, then the below cell, right cell and finally the left cell (in case the current cell is to be filled).
 
