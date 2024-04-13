@@ -10,7 +10,8 @@ numpy                     1.26.4
 ## How to run
 
 Install Python: If not already installed install Python 3.11.7 (which I used to run this tool)
-https://www.python.org/downloads/release/python-3117/
+try `python --version` or `python3 --version`
+`https://www.python.org/downloads/release/python-3117/`
 
 Download the program:
 `git clone https://github.com/FabianRapp/Flood-Fill-Visualizer.git && cd Flood-Fill-Visualizer`
