@@ -1,0 +1,6 @@
+__pycache__/*
+*flood_fill_env/*
+flood_fill_env/include/*
+flood_fill_env/bin/*
+flood_fill_env/lib/*
+flood_fill_env/share/*
