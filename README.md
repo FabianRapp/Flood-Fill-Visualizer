@@ -24,10 +24,10 @@ Finally to run the program:<br>
 `python main.py`<br>
 <br>
 To run it again close the windows and use `python main.py`<br>
-<br>
 
 ## The first window: Setup
 Configure the grid by changing cells between being walls or empty spaces, and setting the starting position<br>
+<br>
 ![Setup window](images/Flood-Fill-Visualizer-Setup.png)
 <br>
 Green Cells: Space empty space (Cells that can be filled)<br>
@@ -44,7 +44,6 @@ Instead of clicking individual cells the mouse can be dragged over while the mou
 To change the grid size click "New Grid Size"<br>
 <br>
 After you have configured the map press "Start"<br>
-<br>
 
 ## The second window: Visualization
 This window visualizes the recursive execution of the flood fill algorithm in real-time<br>
@@ -52,7 +51,7 @@ This window visualizes the recursive execution of the flood fill algorithm in re
 
 This is where the main algorithm runs and is displayed.<br>
 The algorithm works recursively by calling itself first on the above cells, then the below cell, right cell and finally the left cell (in case the current cell is to be filled).<br>
-<br>
+
 Move the slider on the bottom the the left for higher speed.<br>
 
 # The colors:
