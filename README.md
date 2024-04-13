@@ -46,7 +46,7 @@ After you have configured the map press "Finished"
 
 ## The second window: Visualization
 This window visualizes the recursive execution of the flood fill algorithm in real-time
-![Setup window](images/Flood-Fill-Visualizer-Setup.png)
+![Visualization window](images/Flood-Fill-Visualizer.png)
 
 This is where the main algorithm runs and is displayed.
 The algorithm works recursively by calling itself first on the above cells, then the below cell, right cell and finally the left cell (in case the current cell is to be filled).
